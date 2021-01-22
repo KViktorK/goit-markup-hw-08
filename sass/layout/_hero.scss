@@ -34,7 +34,7 @@
           var(--hero-gradient),
           var(--hero-gradient)
         ),
-        url(/img/hero/hero-mobile@2x.jpg);
+        url("../img/hero/hero-mobile@2x.jpg");
     }
   }
 
@@ -59,7 +59,7 @@
         var(--hero-gradient),
         var(--hero-gradient)
       ),
-      url(/img/hero/hero-tablet.jpg);
+      url("../img/hero/hero-tablet.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -84,7 +84,7 @@
           var(--hero-gradient),
           var(--hero-gradient)
         ),
-        url(/img/hero/hero-tablet@2x.jpg);
+        url("/img/hero/hero-tablet@2x.jpg");
     }
   }
   .hero-btn {
@@ -101,7 +101,7 @@
         var(--hero-gradient),
         var(--hero-gradient)
       ),
-      url(/img/hero/hero-backgraund.jpg);
+      url("/img/hero/hero-backgraund.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -133,7 +133,7 @@
           var(--hero-gradient),
           var(--hero-gradient)
         ),
-        url(/img/hero/hero-tablet@2x.jpg);
+        url("./img/hero/hero-tablet@2x.jpg");
     }
   }
 
