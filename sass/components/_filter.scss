@@ -1,0 +1,74 @@
+// ============================MOBILE============================
+@media screen and(min-width: 320px) and(max-width: 767px) {
+  .filter {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+
+  .filter .item {
+    margin-right: 8px;
+    margin-bottom: 15px;
+  }
+  .filter-title {
+    color: var(--title-text-color);
+  }
+  .filter .link {
+    color: var(--title-text-color);
+    background-color: var(--primary-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    transition: var(--transition-background);
+    &:hover,
+    &:focus {
+      color: var(--white-color);
+      background-color: var(--accent-color);
+      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+  }
+  .filter-btn {
+    outline: none;
+    display: inline-block;
+    padding: 6px 22px;
+    border-radius: 4px;
+  }
+}
+// ====================TABLET & DESKTOP==================
+@media screen and(min-width: 768px) {
+  .filter {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 34px;
+    justify-content: center;
+  }
+
+  .filter .item + .item {
+    margin-left: 8px;
+  }
+  .filter-title {
+    color: var(--title-text-color);
+  }
+  .filter .link {
+    color: var(--title-text-color);
+    background-color: var(--primary-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    transition: var(--transition-background);
+    &:hover,
+    &:focus {
+      color: var(--white-color);
+      background-color: var(--accent-color);
+      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+  }
+  .filter-btn {
+    outline: none;
+    display: inline-block;
+    padding: 6px 22px;
+    border-radius: 4px;
+  }
+}

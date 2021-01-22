@@ -1,0 +1,24 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-background-color: #e5e5e5;
+  --white-color: #ffffff;
+  --footer-background: #2f303a;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  /* index.html */
+  --team-background: #f5f4fa;
+  --hero-background: #2f303a;
+  --hero-gradient: rgba(47, 48, 58, 0.4);
+  /* Transfotm */
+  --modal-transition: transform ease 250ms;
+
+  --animation-time: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  --transition-color: color 250ms linear;
+  --transition-fill: fill 250ms linear;
+  --transition-border: border-color 250ms linear;
+
+  --transition-overlay: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-background: background-color 250ms linear;
+}

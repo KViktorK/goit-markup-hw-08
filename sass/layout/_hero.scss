@@ -1,0 +1,144 @@
+// ===============MOBILE=================
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
+
+    background-image: linear-gradient(
+        to right,
+        var(--hero-gradient),
+        var(--hero-gradient)
+      ),
+      url(../../img/hero/hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+  .hero-title {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+    screen and (min-resolution: 192dpi) and (min-width: 320px),
+    screen and (min-resolution: 2dppx) and (min-width: 320px) {
+    .hero {
+      background-image: linear-gradient(
+          to right,
+          var(--hero-gradient),
+          var(--hero-gradient)
+        ),
+        url(../../img/hero/hero-mobile@2x.jpg);
+    }
+  }
+
+  .hero-btn {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+// 96dpi = 1x
+// 192dpi = 2x
+//
+
+// =========================TABLET=========================
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
+
+    background-image: linear-gradient(
+        to right,
+        var(--hero-gradient),
+        var(--hero-gradient)
+      ),
+      url(../../img/hero/hero-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+  .hero-title {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+    screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .hero {
+      background-image: linear-gradient(
+          to right,
+          var(--hero-gradient),
+          var(--hero-gradient)
+        ),
+        url(../../img/hero/hero-tablet@2x.jpg);
+    }
+  }
+  .hero-btn {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+// =========================DESKTOP=====================
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        var(--hero-gradient),
+        var(--hero-gradient)
+      ),
+      url(../img/hero/hero-backgraund.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    height: 600px;
+    margin-top: 0px;
+
+    background-color: var(--hero-background);
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    .hero-title {
+      color: var(--white-color);
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.36;
+      margin-top: 0px;
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+    screen and (min-resolution: 192dpi) and (min-width: 1200px),
+    screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    .hero {
+      background-image: linear-gradient(
+          to right,
+          var(--hero-gradient),
+          var(--hero-gradient)
+        ),
+        url(../../img/hero/hero-tablet@2x.jpg);
+    }
+  }
+
+  .hero-btn {
+    display: inline-block;
+    text-align: center;
+  }
+}

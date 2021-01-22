@@ -1,0 +1,109 @@
+// =================== MOBILE=======================
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .section .advantage {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .advantage-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 120px;
+
+    background-color: var(--team-background);
+  }
+  .advantage .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .advantage .text {
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0px;
+  }
+}
+
+// =================================TABLET=================================
+@media screen and(min-width: 768px) and(max-width: 1200px) {
+  .section .advantage {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .advantage-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+  .advantage > .item {
+    flex-basis: calc(100% / 2 - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .advantage-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 120px;
+
+    background-color: var(--team-background);
+  }
+  .advantage .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .advantage .text {
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0px;
+  }
+}
+
+// ===============================DESKTOP===================================
+@media screen and(min-width: 1200px) {
+  .advantage-box {
+    display: flex;
+    justify-content: space-around;
+  }
+  .advantage > .item + .item {
+    margin-left: 30px;
+  }
+  .advantage-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 120px;
+
+    background-color: var(--team-background);
+  }
+  .advantage .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .advantage .text {
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0px;
+  }
+}

@@ -1,0 +1,38 @@
+/* portfolio-visited */
+.link {
+  position: relative;
+}
+.portfolio-visited a::before {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  border-bottom: 4px solid var(--accent-color);
+  border-radius: 2px;
+
+  text-align: center;
+  width: 100%;
+  &:visited {
+    color: var(--accent-color);
+  }
+}
+/* index-visited */
+.index-visited {
+  position: relative;
+}
+.index-visited .link::before {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+
+  border-bottom: 4px solid var(--accent-color);
+  border-radius: 2px;
+
+  text-align: center;
+  width: 100%;
+
+  &:visited {
+    color: var(--accent-color);
+  }
+}
