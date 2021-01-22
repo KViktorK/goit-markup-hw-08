@@ -1145,7 +1145,7 @@ ul {
   .hero {
     padding-top: 118px;
     padding-bottom: 118px;
-    background-image: linear-gradient(to right, var(--hero-gradient), var(--hero-gradient)), url(/img/hero/hero-mobile.jpg);
+    background-image: linear-gradient(to right, var(--hero-gradient), var(--hero-gradient)), url("../img/hero/hero-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     letter-spacing: 0.06em;
