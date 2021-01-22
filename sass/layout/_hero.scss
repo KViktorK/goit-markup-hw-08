@@ -1,4 +1,4 @@
-// ===============MOBILE=================
+// ===============MOBILE====================
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .hero {
     padding-top: 118px;
@@ -9,7 +9,7 @@
         var(--hero-gradient),
         var(--hero-gradient)
       ),
-      url(../../img/hero/hero-mobile.jpg);
+      url(/img/hero/hero-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
