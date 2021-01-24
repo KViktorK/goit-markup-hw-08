@@ -1250,6 +1250,9 @@ ul {
     margin-top: 60px;
     margin-bottom: 60px;
   }
+  .advantage > .item {
+    margin-bottom: 30px;
+  }
   .advantage-icon-container {
     display: flex;
     justify-content: center;
@@ -1398,6 +1401,7 @@ ul {
   .section-team {
     background-color: var(--team-background);
     padding-bottom: 60px;
+    padding-top: 60px;
   }
   .team-img {
     width: 100%;
